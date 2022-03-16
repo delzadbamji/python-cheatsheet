@@ -10,6 +10,6 @@ sorted(List[List], key=lambda x: (x[0], x[1]))
   sorted(arr, key=lambda x: (length(x), x))
   sort by length and then by value (i.e x)
   
-  - lambda func (like anonymous function of JS)
+- lambda func (like anonymous function of JS)
   add = lambda a, b : a + b
   add(3,6)
