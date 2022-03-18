@@ -31,3 +31,7 @@ sorted(List[List], key=lambda x: (x[0], x[1]))
     sorted(d,key=d.get)
     
     > {'b':1,'c':2,'a':4}
+
+- sort dictionary by value descending then key ascending
+  
+  sorted(dict.items(), key=lambda x: (-x[1], x[0]))
