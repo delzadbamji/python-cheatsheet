@@ -35,3 +35,18 @@ sorted(List[List], key=lambda x: (x[0], x[1]))
 - sort dictionary by value descending then key ascending
   
   sorted(dict.items(), key=lambda x: (-x[1], x[0]))
+  
+- if a key exists in a dict, return the value or return the default value
+   
+  - example 1.
+     d = {"a":123,"b":456}
+     p = d.setdefault("c",111)
+     p has the value 111 since key c doesn't exist. d is updated to  {"a":123,"b":456, "c":111}
+     
+  - example 2.
+     d = {"a":123,"b":456,"c":789}
+     p = d.setdefault("c",111)
+     p has the value 789 since key c exists. d stays same.
+  
+  
+  
