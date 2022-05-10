@@ -53,4 +53,14 @@ sorted(List[List], key=lambda x: (x[0], x[1]))
      p has the value 789 since key c exists. d stays same.
   
   
+  - create a dictionary from 2 lists
+    
+   - example 1.
+     a = [1,2,3]
+     b = ['x','y','z']
+     
+     d = {i:j for i,j in zip(a,b)}
+     
+     output: {1: 'x', 2: 'y', 3: 'z'}
+     
   
