@@ -58,6 +58,7 @@ sorted(List[List], key=lambda x: (x[0], x[1]))
    - example 1.
   
      a = [1,2,3]
+     
      b = ['x','y','z']
      
      d = { i:j for i,j in zip(a,b)}
@@ -69,6 +70,7 @@ sorted(List[List], key=lambda x: (x[0], x[1]))
    - example 1.
   
      s1 = {"a", "b", "c"}
+     
      s2 = {"d", "e", "f"}
      
      s1 |= s2
